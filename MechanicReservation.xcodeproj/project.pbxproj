@@ -14,6 +14,7 @@
 		88C1D6BB2AFD74A800D7CD22 /* MechanicReservationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1D6BA2AFD74A800D7CD22 /* MechanicReservationTests.swift */; };
 		88C1D6C52AFD74A800D7CD22 /* MechanicReservationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1D6C42AFD74A800D7CD22 /* MechanicReservationUITests.swift */; };
 		88C1D6C72AFD74A800D7CD22 /* MechanicReservationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1D6C62AFD74A800D7CD22 /* MechanicReservationUITestsLaunchTests.swift */; };
+		88C1D6D42AFD76A200D7CD22 /* ReservationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1D6D32AFD76A200D7CD22 /* ReservationDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		88C1D6C02AFD74A800D7CD22 /* MechanicReservationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechanicReservationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C1D6C42AFD74A800D7CD22 /* MechanicReservationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicReservationUITests.swift; sourceTree = "<group>"; };
 		88C1D6C62AFD74A800D7CD22 /* MechanicReservationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicReservationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88C1D6D32AFD76A200D7CD22 /* ReservationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				88C1D6A92AFD74A700D7CD22 /* MechanicReservationApp.swift */,
 				88C1D6AB2AFD74A700D7CD22 /* ContentView.swift */,
+				88C1D6D32AFD76A200D7CD22 /* ReservationDetails.swift */,
 				88C1D6AD2AFD74A800D7CD22 /* Assets.xcassets */,
 				88C1D6AF2AFD74A800D7CD22 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C1D6D42AFD76A200D7CD22 /* ReservationDetails.swift in Sources */,
 				88C1D6AC2AFD74A700D7CD22 /* ContentView.swift in Sources */,
 				88C1D6AA2AFD74A700D7CD22 /* MechanicReservationApp.swift in Sources */,
 			);
