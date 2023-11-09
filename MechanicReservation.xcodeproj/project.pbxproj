@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88C1D6AA2AFD74A700D7CD22 /* MechanicReservationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1D6A92AFD74A700D7CD22 /* MechanicReservationApp.swift */; };
+		88C1D6AC2AFD74A700D7CD22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1D6AB2AFD74A700D7CD22 /* ContentView.swift */; };
+		88C1D6AE2AFD74A800D7CD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C1D6AD2AFD74A800D7CD22 /* Assets.xcassets */; };
+		88C1D6B12AFD74A800D7CD22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C1D6B02AFD74A800D7CD22 /* Preview Assets.xcassets */; };
+		88C1D6BB2AFD74A800D7CD22 /* MechanicReservationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1D6BA2AFD74A800D7CD22 /* MechanicReservationTests.swift */; };
+		88C1D6C52AFD74A800D7CD22 /* MechanicReservationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1D6C42AFD74A800D7CD22 /* MechanicReservationUITests.swift */; };
+		88C1D6C72AFD74A800D7CD22 /* MechanicReservationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1D6C62AFD74A800D7CD22 /* MechanicReservationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88C1D6B72AFD74A800D7CD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C1D69E2AFD74A700D7CD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C1D6A52AFD74A700D7CD22;
+			remoteInfo = MechanicReservation;
+		};
+		88C1D6C12AFD74A800D7CD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C1D69E2AFD74A700D7CD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C1D6A52AFD74A700D7CD22;
+			remoteInfo = MechanicReservation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88C1D6A62AFD74A700D7CD22 /* MechanicReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechanicReservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C1D6A92AFD74A700D7CD22 /* MechanicReservationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicReservationApp.swift; sourceTree = "<group>"; };
+		88C1D6AB2AFD74A700D7CD22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88C1D6AD2AFD74A800D7CD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88C1D6B02AFD74A800D7CD22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88C1D6B62AFD74A800D7CD22 /* MechanicReservationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechanicReservationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C1D6BA2AFD74A800D7CD22 /* MechanicReservationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicReservationTests.swift; sourceTree = "<group>"; };
+		88C1D6C02AFD74A800D7CD22 /* MechanicReservationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechanicReservationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C1D6C42AFD74A800D7CD22 /* MechanicReservationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicReservationUITests.swift; sourceTree = "<group>"; };
+		88C1D6C62AFD74A800D7CD22 /* MechanicReservationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicReservationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C1D6A32AFD74A700D7CD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1D6B32AFD74A800D7CD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1D6BD2AFD74A800D7CD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C1D69D2AFD74A700D7CD22 = {
+			isa = PBXGroup;
+			children = (
+				88C1D6A82AFD74A700D7CD22 /* MechanicReservation */,
+				88C1D6B92AFD74A800D7CD22 /* MechanicReservationTests */,
+				88C1D6C32AFD74A800D7CD22 /* MechanicReservationUITests */,
+				88C1D6A72AFD74A700D7CD22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C1D6A72AFD74A700D7CD22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C1D6A62AFD74A700D7CD22 /* MechanicReservation.app */,
+				88C1D6B62AFD74A800D7CD22 /* MechanicReservationTests.xctest */,
+				88C1D6C02AFD74A800D7CD22 /* MechanicReservationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C1D6A82AFD74A700D7CD22 /* MechanicReservation */ = {
+			isa = PBXGroup;
+			children = (
+				88C1D6A92AFD74A700D7CD22 /* MechanicReservationApp.swift */,
+				88C1D6AB2AFD74A700D7CD22 /* ContentView.swift */,
+				88C1D6AD2AFD74A800D7CD22 /* Assets.xcassets */,
+				88C1D6AF2AFD74A800D7CD22 /* Preview Content */,
+			);
+			path = MechanicReservation;
+			sourceTree = "<group>";
+		};
+		88C1D6AF2AFD74A800D7CD22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88C1D6B02AFD74A800D7CD22 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88C1D6B92AFD74A800D7CD22 /* MechanicReservationTests */ = {
+			isa = PBXGroup;
+			children = (
+				88C1D6BA2AFD74A800D7CD22 /* MechanicReservationTests.swift */,
+			);
+			path = MechanicReservationTests;
+			sourceTree = "<group>";
+		};
+		88C1D6C32AFD74A800D7CD22 /* MechanicReservationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88C1D6C42AFD74A800D7CD22 /* MechanicReservationUITests.swift */,
+				88C1D6C62AFD74A800D7CD22 /* MechanicReservationUITestsLaunchTests.swift */,
+			);
+			path = MechanicReservationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C1D6A52AFD74A700D7CD22 /* MechanicReservation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C1D6CA2AFD74A800D7CD22 /* Build configuration list for PBXNativeTarget "MechanicReservation" */;
+			buildPhases = (
+				88C1D6A22AFD74A700D7CD22 /* Sources */,
+				88C1D6A32AFD74A700D7CD22 /* Frameworks */,
+				88C1D6A42AFD74A700D7CD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MechanicReservation;
+			productName = MechanicReservation;
+			productReference = 88C1D6A62AFD74A700D7CD22 /* MechanicReservation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88C1D6B52AFD74A800D7CD22 /* MechanicReservationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C1D6CD2AFD74A800D7CD22 /* Build configuration list for PBXNativeTarget "MechanicReservationTests" */;
+			buildPhases = (
+				88C1D6B22AFD74A800D7CD22 /* Sources */,
+				88C1D6B32AFD74A800D7CD22 /* Frameworks */,
+				88C1D6B42AFD74A800D7CD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C1D6B82AFD74A800D7CD22 /* PBXTargetDependency */,
+			);
+			name = MechanicReservationTests;
+			productName = MechanicReservationTests;
+			productReference = 88C1D6B62AFD74A800D7CD22 /* MechanicReservationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88C1D6BF2AFD74A800D7CD22 /* MechanicReservationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C1D6D02AFD74A800D7CD22 /* Build configuration list for PBXNativeTarget "MechanicReservationUITests" */;
+			buildPhases = (
+				88C1D6BC2AFD74A800D7CD22 /* Sources */,
+				88C1D6BD2AFD74A800D7CD22 /* Frameworks */,
+				88C1D6BE2AFD74A800D7CD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C1D6C22AFD74A800D7CD22 /* PBXTargetDependency */,
+			);
+			name = MechanicReservationUITests;
+			productName = MechanicReservationUITests;
+			productReference = 88C1D6C02AFD74A800D7CD22 /* MechanicReservationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C1D69E2AFD74A700D7CD22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					88C1D6A52AFD74A700D7CD22 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					88C1D6B52AFD74A800D7CD22 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 88C1D6A52AFD74A700D7CD22;
+					};
+					88C1D6BF2AFD74A800D7CD22 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 88C1D6A52AFD74A700D7CD22;
+					};
+				};
+			};
+			buildConfigurationList = 88C1D6A12AFD74A700D7CD22 /* Build configuration list for PBXProject "MechanicReservation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88C1D69D2AFD74A700D7CD22;
+			productRefGroup = 88C1D6A72AFD74A700D7CD22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C1D6A52AFD74A700D7CD22 /* MechanicReservation */,
+				88C1D6B52AFD74A800D7CD22 /* MechanicReservationTests */,
+				88C1D6BF2AFD74A800D7CD22 /* MechanicReservationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C1D6A42AFD74A700D7CD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C1D6B12AFD74A800D7CD22 /* Preview Assets.xcassets in Resources */,
+				88C1D6AE2AFD74A800D7CD22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1D6B42AFD74A800D7CD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1D6BE2AFD74A800D7CD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C1D6A22AFD74A700D7CD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C1D6AC2AFD74A700D7CD22 /* ContentView.swift in Sources */,
+				88C1D6AA2AFD74A700D7CD22 /* MechanicReservationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1D6B22AFD74A800D7CD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C1D6BB2AFD74A800D7CD22 /* MechanicReservationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1D6BC2AFD74A800D7CD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C1D6C52AFD74A800D7CD22 /* MechanicReservationUITests.swift in Sources */,
+				88C1D6C72AFD74A800D7CD22 /* MechanicReservationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88C1D6B82AFD74A800D7CD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C1D6A52AFD74A700D7CD22 /* MechanicReservation */;
+			targetProxy = 88C1D6B72AFD74A800D7CD22 /* PBXContainerItemProxy */;
+		};
+		88C1D6C22AFD74A800D7CD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C1D6A52AFD74A700D7CD22 /* MechanicReservation */;
+			targetProxy = 88C1D6C12AFD74A800D7CD22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88C1D6C82AFD74A800D7CD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88C1D6C92AFD74A800D7CD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C1D6CB2AFD74A800D7CD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MechanicReservation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = martinoli.MechanicReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88C1D6CC2AFD74A800D7CD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MechanicReservation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = martinoli.MechanicReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88C1D6CE2AFD74A800D7CD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = martinoli.MechanicReservationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechanicReservation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MechanicReservation";
+			};
+			name = Debug;
+		};
+		88C1D6CF2AFD74A800D7CD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = martinoli.MechanicReservationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechanicReservation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MechanicReservation";
+			};
+			name = Release;
+		};
+		88C1D6D12AFD74A800D7CD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = martinoli.MechanicReservationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MechanicReservation;
+			};
+			name = Debug;
+		};
+		88C1D6D22AFD74A800D7CD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = martinoli.MechanicReservationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MechanicReservation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C1D6A12AFD74A700D7CD22 /* Build configuration list for PBXProject "MechanicReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C1D6C82AFD74A800D7CD22 /* Debug */,
+				88C1D6C92AFD74A800D7CD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C1D6CA2AFD74A800D7CD22 /* Build configuration list for PBXNativeTarget "MechanicReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C1D6CB2AFD74A800D7CD22 /* Debug */,
+				88C1D6CC2AFD74A800D7CD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C1D6CD2AFD74A800D7CD22 /* Build configuration list for PBXNativeTarget "MechanicReservationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C1D6CE2AFD74A800D7CD22 /* Debug */,
+				88C1D6CF2AFD74A800D7CD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C1D6D02AFD74A800D7CD22 /* Build configuration list for PBXNativeTarget "MechanicReservationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C1D6D12AFD74A800D7CD22 /* Debug */,
+				88C1D6D22AFD74A800D7CD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88C1D69E2AFD74A700D7CD22 /* Project object */;
+}
