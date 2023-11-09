@@ -17,6 +17,7 @@ struct GridButtons: View {
                     VStack{
                         Image(systemName: "person")
                         Text("5 seats")
+                            .padding(.top)
                     }
                 }
                 
@@ -26,6 +27,7 @@ struct GridButtons: View {
                     VStack {
                         Image(systemName: "bag")
                         Text("4 bags")
+                            .padding(.top)
                     }
                 }
                 
@@ -35,6 +37,7 @@ struct GridButtons: View {
                     VStack {
                         Image(systemName: "car.window.right")
                         Text("4 doors")
+                            .padding(.top)
                     }
                 }
                 
@@ -44,9 +47,11 @@ struct GridButtons: View {
                     VStack {
                         Image(systemName: "engine.combustion")
                         Text("Auto")
+                            .padding(.top)
                     }
                 }
             }
+            
         }.padding()
     }
 }

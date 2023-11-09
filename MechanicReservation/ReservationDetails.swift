@@ -23,6 +23,8 @@ struct ReservationDetails: View {
                 .padding(.bottom)
             
             GridButtons()
+                .bold()
+                .foregroundColor(.black)
             
             ScrollView {
                 HStack {
