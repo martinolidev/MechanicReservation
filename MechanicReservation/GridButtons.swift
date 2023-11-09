@@ -9,8 +9,8 @@ import SwiftUI
 
 struct GridButtons: View {
     var body: some View {
-        Grid {
-            GridRow(){
+        Grid(horizontalSpacing: 40) {
+            GridRow(alignment: .center){
                 Button {
                     //
                 } label: {

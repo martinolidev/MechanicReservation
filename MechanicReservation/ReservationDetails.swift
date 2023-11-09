@@ -22,40 +22,7 @@ struct ReservationDetails: View {
             Text("Chevrolet Malibu or similar")
                 .padding(.bottom)
             
-            HStack {
-                VStack {
-                    Image(systemName: "person")
-                        .padding(.top)
-                    Text("5 seat")
-                        .padding()
-                }
-                .border(Color.gray)
-                
-                VStack {
-                    Image(systemName: "bag")
-                        .padding(.top)
-                    Text("4 bags")
-                        .padding()
-                }
-                .border(Color.gray)
-                
-                VStack {
-                    Image(systemName: "car.window.right")
-                        .padding(.top)
-                    Text("4 door")
-                        .padding()
-                }
-                .border(Color.gray)
-                
-                VStack {
-                    Image(systemName: "engine.combustion")
-                        .padding(.top)
-                    Text("Auto")
-                        .padding()
-                }
-                .border(Color.gray)
-            }
-            
+            GridButtons()
             
             ScrollView {
                 HStack {
