@@ -25,6 +25,9 @@ struct ReservationDetails: View {
             GridButtons()
                 .bold()
                 .foregroundColor(.black)
+                .background(Color(red: 249/255, green: 244/255, blue: 241/255))
+                .opacity(0.8)
+                .clipShape(RoundedRectangle(cornerRadius: 20.0))
             
             ScrollView {
                 HStack {
